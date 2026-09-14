@@ -11,17 +11,21 @@ Rule-based synthetic dataset for Taiwan's Long-Term Care 2.0 (LTC 2.0) service s
 
 ## 為什麼做這個 / Why this project
 
-長照 2.0 是台灣現行最重要的社會照護制度之一,但公開可用的服務派工資料極少——一方面涉及個資,另一方面制度本身(BA 碼、CMS 等級、給付點數)對開發者、學生、研究者都有一定門檻。
+台灣長照 2.0 服務派工資料公開性極低——涉及個資,加上 BA 碼、CMS 等級、給付點數等制度門檻,想動手練習的學生與研究者幾乎沒有現成起點。
 
-我在大一資管課程接觸資料集建構後,發現「與其等別人開放資料,不如自己動手做一份**規則合法、法規對接明確、結構真實**的合成資料集」,可以用來:
+這個 repo 提供一份**符合衛福部支付基準**的合成資料集:20 名居服員 × 60 名個案 × 14 天服務日誌,規則透明、法規對接明確,可直接用於研究、教學與原型開發。作者在學期間修過資料處理相關課程後,利用暑假把構想落實成可重現的存庫,同時作為個人作品集。
 
-- 練習資料工程 pipeline
-- 給排班演算法、成本模型、視覺化 dashboard 當測試資料
-- 讓其他學生 / 研究者可以直接拿來做 side project,不需要跟主管機關申請
+**適合的用途**
+- 排班演算法(VRP / TSP)測試資料
+- 資料工程 pipeline 練習
+- 長照相關 AI 產品原型
+- 課程作業與教學範例
 
-這個 repo 就是這個想法的第一個版本。
+**不適合的用途**
+- 實際政策決策或業務營運——資料為規則合成,具體人口權重需自行核實(見「資料驗證狀態」章節)
+- 需要真實個案分布或真實地理軌跡的研究
 
-> Public Long-Term Care service dispatch data in Taiwan is scarce due to privacy and regulatory complexity. This repo provides a **rule-based, regulation-aligned synthetic dataset** for algorithm prototyping, coursework, and portfolio use — no privacy risk, no application paperwork.
+> Public LTC dispatch data in Taiwan is scarce due to privacy and regulatory complexity. This repo provides a rule-based, MOHW-aligned synthetic dataset (20 caregivers × 60 clients × 14 days) for prototyping, coursework, and portfolio use — no privacy risk, no application paperwork.
 
 ---
 
@@ -154,5 +158,5 @@ _這個章節保留給後續使用這份資料集的比賽、課程作業、論�
 
 ## 作者 / Author
 
-**Liang** — Information Management, National United University (NUU)
 GitHub: [@lliangles](https://github.com/lliangles)
+Contact: `186920554+lliangles@users.noreply.github.com`

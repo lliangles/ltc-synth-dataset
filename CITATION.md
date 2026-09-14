@@ -8,15 +8,15 @@
 ## 引用格式建議 / Suggested Citation
 
 **中文:**
-> Liang (@lliangles). (2026). *ltc-synth-dataset:符合衛福部支付基準的長照 2.0 擬真合成資料集* [Dataset]. GitHub. https://github.com/lliangles/ltc-synth-dataset
+> lliangles. (2026). *ltc-synth-dataset:符合衛福部支付基準的長照 2.0 擬真合成資料集* [Dataset]. GitHub. https://github.com/lliangles/ltc-synth-dataset
 
 **English:**
-> Liang (@lliangles). (2026). *ltc-synth-dataset: A rule-based synthetic dataset for Taiwan's Long-Term Care 2.0 system* [Dataset]. GitHub. https://github.com/lliangles/ltc-synth-dataset
+> lliangles. (2026). *ltc-synth-dataset: A rule-based synthetic dataset for Taiwan's Long-Term Care 2.0 system* [Dataset]. GitHub. https://github.com/lliangles/ltc-synth-dataset
 
 **BibTeX:**
 ```bibtex
-@misc{liang2026carehome,
-  author       = {Liang},
+@misc{lliangles2026ltcsynth,
+  author       = {lliangles},
   title        = {ltc-synth-dataset: A rule-based synthetic dataset for Taiwan's Long-Term Care 2.0 system},
   year         = {2026},
   publisher    = {GitHub},
